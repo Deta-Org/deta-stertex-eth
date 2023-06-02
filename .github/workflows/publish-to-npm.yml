@@ -7,7 +7,7 @@ on:
 
 jobs:
   main:
-    uses: dydxprotocol/actions-public/.github/workflows/v3-publish-to-npm.yml@main
+    uses: detaprotocol/actions-public/.github/workflows/v3-publish-to-npm.yml@main
     secrets: inherit
     permissions:
       contents: write
